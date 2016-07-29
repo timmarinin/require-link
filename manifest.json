@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+
+    "name": "require-link",
+    "description": "Automagically link require('module') to npmjs.com & nodejs.org/api",
+    "version": "0.1.0",
+    
+    "icons": {
+	"128": "icon.png"
+    },
+
+    "author": "Marinin Tim <mt@marinin.xyz>",
+
+    "content_scripts": [
+	{
+	    "matches": ["*://*/*"],
+	    "js": ["findAndReplaceDOMText.js", "require-link.js"]
+	}
+    ],
+    "permissions": [ "activeTab" ]
+}

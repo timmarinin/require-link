@@ -17,6 +17,5 @@
 	    "matches": ["*://*/*"],
 	    "js": ["findAndReplaceDOMText.js", "require-link.js"]
 	}
-    ],
-    "permissions": [ "activeTab" ]
+    ]
 }

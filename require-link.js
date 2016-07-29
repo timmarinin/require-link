@@ -13,7 +13,7 @@ const CORE_MODULES = [
     "assert", "buffer", "child_process", "cluster",
     "console", "crypto", "dns",
     "domain", "events", "fs",
-    "http", "https", "module",
+    "http", "https",
     "net", "os", "path", "process",
     "punycode", "querystring", "readline", "repl",
     "stream", "string_decoder", "timers", "tls",
